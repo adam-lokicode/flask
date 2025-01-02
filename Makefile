@@ -1,10 +1,9 @@
 # Must have `sentry-cli` installed globally
 # Following variable must be passed in:
 
-#SENTRY_AUTH_TOKEN=<your_auth_token>
-
-SENTRY_ORG=testorg-az
-SENTRY_PROJECT=flask
+SENTRY_AUTH_TOKEN=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
+SENTRY_ORG=airtabledemo
+SENTRY_PROJECT=python-flask
 VERSION=`sentry-cli releases propose-version`
 
 REPOSITORY=us.gcr.io/sales-engineering-sf
